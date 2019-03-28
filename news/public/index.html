@@ -80,62 +80,23 @@
     <!-- Header Area End -->
 
     <!-- Welcome Blog Slide Area Start -->
-    <section class="welcome-blog-post-slide owl-carousel">
-        <!-- Single Blog Post -->
-        <div class="single-blog-post-slide bg-img background-overlay-5" style="background-image: url(img/bg-img/1.jpg);">
-            <!-- Single Blog Post Content -->
-            <div class="single-blog-post-content">
-                <div class="tags">
-                    <a href="#">crypto</a>
-                </div>
-                <h3><a href="#" class="font-pt">Crypto world goes mad</a></h3>
-                <div class="date">
-                    <a href="#">March 29, 2018</a>
-                </div>
-            </div>
-        </div>
-        <!-- Single Blog Post -->
-        <div class="single-blog-post-slide bg-img background-overlay-5" style="background-image: url(img/bg-img/2.jpg);">
-            <!-- Single Blog Post Content -->
-            <div class="single-blog-post-content">
-                <div class="tags">
-                    <a href="#">live</a>
-                </div>
-                <h3><a href="#" class="font-pt">The latest news live</a></h3>
-                <div class="date">
-                    <a href="#">March 29, 2018</a>
-                </div>
-            </div>
-        </div>
-        <!-- Single Blog Post -->
-        <div class="single-blog-post-slide bg-img background-overlay-5" style="background-image: url(img/bg-img/3.jpg);">
-            <!-- Single Blog Post Content -->
-            <div class="single-blog-post-content">
-                <div class="tags">
-                    <a href="#">politics</a>
-                </div>
-                <h3><a href="#" class="font-pt">Financial advices </a></h3>
-                <div class="date">
-                    <a href="#">March 29, 2018</a>
-                </div>
-            </div>
-        </div>
-        <!-- Single Blog Post -->
-        <div class="single-blog-post-slide bg-img background-overlay-5" style="background-image: url(img/bg-img/2.jpg);">
-            <!-- Single Blog Post Content -->
-            <div class="single-blog-post-content">
-                <div class="tags">
-                    <a href="#">live</a>
-                </div>
-                <h3><a href="#" class="font-pt">The latest news live</a></h3>
-                <div class="date">
-                    <a href="#">March 29, 2018</a>
-                </div>
-            </div>
-        </div>
+    <section class="welcome-blog-post-slide owl-carousel js-news-section">
     </section>
     <!-- Welcome Blog Slide Area End -->
 
+    <template id="news-template">
+        <div class="single-blog-post-slide bg-img background-overlay-5 js-post">
+            <!-- Single Blog Post Content -->
+            <div class="single-blog-post-content">
+                <div class="tags">
+                </div>
+                <h3><a href="#" class="font-pt js-title"></a></h3>
+                <div class="date">
+                </div>
+            </div>
+        </div>
+
+    </template>
     <!-- Footer Area Start -->
     <footer class="footer-area bg-img background-overlay" style="background-image: url(img/bg-img/4.jpg);">
         <!-- Bottom Footer Area -->
@@ -155,7 +116,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         </div>
     </footer>
     <!-- Footer Area End -->
-
+    <script src="js/site.js"></script>
     <!-- jQuery (Necessary for All JavaScript Plugins) -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
@@ -166,7 +127,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
-    <script src="js/site.js"></script>
 </body>
 
 </html>

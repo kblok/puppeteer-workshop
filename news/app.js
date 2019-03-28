@@ -17,6 +17,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/weather', require('./routes/weather'));
 app.use('/dolar', require('./routes/dolar'));
+app.use('/news', require('./routes/news'));
 
 // error handler
 app.use(function(err, req, res, next) {
