@@ -5,14 +5,6 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!-- Title  -->
-    <title>TheGazette - News Magazine HTML5 Template | Home</title>
-
-    <!-- Favicon  -->
-    <link rel="icon" href="img/core-img/favicon.ico">
-
     <!-- Core Style CSS -->
     <link rel="stylesheet" href="css/core-style.css">
     <link rel="stylesheet" href="style.css">
@@ -83,7 +75,26 @@
     <section class="welcome-blog-post-slide owl-carousel js-news-section">
     </section>
     <!-- Welcome Blog Slide Area End -->
-
+    <section class="main-content-wrapper section_padding_100 js-post-section" style="display:none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-9">
+                    <!-- Gazette Welcome Post -->
+                    <div class="gazette-welcome-post">
+                        <!-- Post Tag -->
+                        <h2 class="font-pt js-post-title"></h2>
+                        <p class="gazette-post-date js-post-date"></p>
+                        <!-- Post Thumbnail -->
+                        <div class="blog-post-thumbnail my-5">
+                            <img class="js-post-image" src="" alt="post-thumb">
+                        </div>
+                        <!-- Post Excerpt -->
+                        <p class="js-post-content"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <template id="news-template">
         <div class="single-blog-post-slide bg-img background-overlay-5 js-post">
             <!-- Single Blog Post Content -->
@@ -95,7 +106,6 @@
                 </div>
             </div>
         </div>
-
     </template>
     <!-- Footer Area Start -->
     <footer class="footer-area bg-img background-overlay" style="background-image: url(img/bg-img/4.jpg);">
